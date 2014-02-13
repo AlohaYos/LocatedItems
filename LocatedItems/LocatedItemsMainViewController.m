@@ -56,7 +56,7 @@
 
 -(void)beaconing:(BOOL)flag
 {
-	NSUUID		*uuid = [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"];
+	NSUUID		*uuid = [[NSUUID alloc] initWithUUIDString:kUUIDString];
 	CLBeaconRegion *region = [[CLBeaconRegion alloc]
 							  initWithProximityUUID:uuid
 							  major:[self.majorNumber.text intValue]

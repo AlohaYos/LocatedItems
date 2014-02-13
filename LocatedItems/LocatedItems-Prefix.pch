@@ -14,3 +14,6 @@
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
 #endif
+
+#define	kUUIDString	@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"		// Estimote beacon UUID
+//#define	kUUIDString	@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"		// Dummy UUID

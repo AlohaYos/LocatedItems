@@ -33,7 +33,7 @@
 {
     [super viewDidLoad];
 
-	_uuid = [[NSUUID alloc] initWithUUIDString:@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0"];
+	_uuid = [[NSUUID alloc] initWithUUIDString:kUUIDString];
 	_region = [[CLBeaconRegion alloc] initWithProximityUUID:_uuid identifier:[_uuid UUIDString]];
 	_locationManager = [[CLLocationManager alloc] init];
 	_locationManager.delegate = self;
